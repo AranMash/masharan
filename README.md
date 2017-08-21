@@ -1,2 +1,2 @@
-# Max and Artem
+# AranMash
 [![Build Status](https://travis-ci.org/AranMash/masharan.svg?branch=master)](https://travis-ci.org/AranMash/masharan)

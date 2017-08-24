@@ -1,0 +1,4 @@
+FROM postgres:latest
+ENV POSTGRES_USER aranmash
+ENV POSTGRES_PASSWORD Netcracker
+ENV POSTGRES_DB app

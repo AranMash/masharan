@@ -1,0 +1,12 @@
+version: '2.0'
+services:
+  psql:
+    build: db/
+  appjava:
+    build: client\build\docker
+    ports:
+      - '8080:8080'
+    links:
+      - psql:database
+    depends_on:
+      - psql
